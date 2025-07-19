@@ -18,7 +18,7 @@ firebase.auth().onAuthStateChanged(user => {
       };
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbxSZQSIaqfRdd150RPxrymmluc8sZ8SE2cp6r7o0XOLrFqNlE8D0Jbt-liiXkHD9GKQSw/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbwaLMPuN2ROiT62LxkjtGrZnCvYW5J1dZnZ7be4Sz9HRAN-4iCMm_V6Ws4kG5n23-8EGA/exec", {
           method: "POST",
           body: JSON.stringify(data),
         });
