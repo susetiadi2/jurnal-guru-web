@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jurnal Guru</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Selamat Datang di Aplikasi Jurnal</h2>
+    <div id="user-info"></div>
+
+    <form id="jurnalForm">
+      <input type="text" id="kelas" placeholder="Kelas" required />
+      <input type="text" id="mapel" placeholder="Mata Pelajaran" required />
+      <textarea id="jurnal" placeholder="Isi jurnal" required></textarea>
+      <textarea id="refleksi" placeholder="Refleksi pembelajaran" required></textarea>
+      <button type="submit">Simpan Jurnal</button>
+    </form>
+
+    <di
